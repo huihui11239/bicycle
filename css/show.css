@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+ul,
+dl {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  position: relative;
+  background: url(../images/show_banner_01.jpg);
+  width: 100%;
+  height: 800px;
+}
+.banner .nav {
+  width: 100%;
+  height: 98px;
+  background: #178b43;
+  position: fixed;
+  top: 49px;
+  z-index: 10;
+}
+.banner .nav .nav-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.banner .nav .nav-inner .logo {
+  padding-left: 25px;
+  float: left;
+  padding-top: 27px;
+}
+.banner .nav .nav-inner ul {
+  float: left;
+  height: 98px;
+  margin-left: 50px;
+}
+.banner .nav .nav-inner ul .ac{
+	background: #055F3C;
+}
+.banner .nav .nav-inner ul li {
+  float: left;
+  width: 110px;
+  height: 98px;
+  line-height: 98px;
+  text-align: center;
+}
+.banner .nav .nav-inner ul li a {
+  font-family: "微软雅黑";
+  font-size: 20px;
+  color: #fff;
+}
+.banner .nav .nav-inner .icon {
+  float: right;
+  line-height: 98px;
+}
+.banner .nav .nav-inner .icon .search {
+  line-height: 98px;
+  width: 110px;
+  height: 20px;
+  float: left;
+  position: relative;
+}
+.banner .nav .nav-inner .icon .search input {
+  border-radius: 4px 0 0 4px;
+  height: 20px;
+  width: 90px;
+}
+.banner .nav .nav-inner .icon .search a {
+  position: absolute ;
+  top: 7px;
+  left: 90px;
+  margin-left: 0px;
+}
+.banner .nav .nav-inner .icon a {
+  margin-left: 25px;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #fff;
+}
+.banner .banner-content {
+  position: absolute;
+  top: 45%;
+  right: 20%;
+  text-align: right;
+}
+.banner .banner-content h1 {
+  color: #37884a;
+  font-family: "微软雅黑";
+  font-size: 68px;
+}
+.banner .banner-content p {
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #5b4a4a;
+}
+.banner .banner-content h2 {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 36px;
+}
+.main {
+  background: #d2d4d5;
+}
+.main .main-inner {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main .main-inner .main-page {
+  height: 120px;
+  line-height: 120px;
+  overflow: hidden;
+}
+.main .main-inner .main-page .item {
+  float: left;
+  height: 120px;
+}
+.main .main-inner .main-page .item a {
+  color: #018234;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.main .main-inner .main-page .sep {
+  padding: 0 20px;
+}
+.main .main-inner .show-text {
+  padding-bottom: 50px;
+}
+.main .main-inner .show-text h1 {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 40px;
+}
+.main .main-inner .show-text p {
+  color: #9d9d9d;
+  font-family: "微软雅黑";
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.show-add {
+  background: #e7e7e7;
+}
+.show-add .inner {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 122px;
+  background: url(../images/show_dt_04.jpg) no-repeat 0px 30px;
+}
+.show-add .inner .sel span {
+  padding: 0 156px;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.show-add .inner .sel .sel-l {
+  width: 150px;
+  height: 33px;
+}
+.show-add .inner .sel .sel-c {
+  width: 120px;
+  height: 33px;
+}
+.show-add .inner .sel .sel-r {
+  width: 140px;
+  height: 33px;
+}
+.show-add .inner .sel select {
+  margin-right: 63px;
+}
+.show-shop .top .top-t {
+  height: 88px;
+  background: #d2d4d5;
+}
+.show-shop .top .top-cont {
+  background: #fff;
+}
+.show-shop .top .top-cont .cont-inner {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.show-shop .top .top-cont .cont-inner .left {
+  float: left;
+  width: 59%;
+}
+.show-shop .top .top-cont .cont-inner .right {
+  float: right;
+  width: 41%;
+}
+.show-shop .top .top-cont .cont-inner .right .img {
+  padding: 60px 0 25px 0;
+}
+.show-shop .top .top-cont .cont-inner .right p {
+  line-height: 31px;
+  padding: 0 80px;
+}
+.show-shop .top .top-cont .cont-inner .right .china {
+  padding: 0 80px;
+}
+.show-shop .top .top-cont .cont-inner .right .china span {
+  line-height: 31px;
+}
+.footer {
+  height: 296px;
+  background: #525252;
+}
+.footer .footer-inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 88px;
+}
+.footer .footer-inner dl {
+  float: left;
+  padding-right: 50px;
+  min-width: 48px;
+}
+.footer .footer-inner dl dd a {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 12px;
+}
+.footer .footer-inner dl:nth-child(1) {
+  padding-left: 110px;
+}
+.footer .footer-inner .code {
+  float: right;
+  text-align: center;
+  padding-right: 110px;
+}
+.footer .footer-inner .code p {
+  color: #fff;
+}
